@@ -24,6 +24,10 @@ exports.index = function(req, res){
 	).catch(function(error){next(error)});
 };
 
+exports.creditos = function(req,res){
+		res.render('quizes/creditos',{ quiz: req.quiz,errors:[]});
+};
+
 //GET /quizes/:id
 exports.show = function(req,res){
 		res.render('quizes/show',{ quiz: req.quiz,errors:[]});
