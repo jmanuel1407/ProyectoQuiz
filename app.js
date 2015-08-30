@@ -42,6 +42,22 @@ app.use(function(req,res,next){
     next();
 });
 
+app.use(function(req,res,next){
+    if(req.session.user) {
+        currentTime = new Date();
+        if(req.session.sessionTime){
+            sessionTime = new Date( parseInt(req.session.sessionTime));
+            if(currentTime-sessionTime>10000){
+                delete req.session.user;
+            }else{
+                req.session.sessionTime = (new Date()).getTime();
+            }
+        }else{
+            req.session.sessionTime = (new Date()).getTime();
+        }
+    }
+    next();
+});
 
 
 app.use('/', routes);
