@@ -1,0 +1,39 @@
+p {
+	color: #2d959e;
+	font-size: 25px;
+	text-align: left;
+}
+
+input[type="text"]{
+	border:solid #2d959e 1px;
+	height: 25px;
+}
+
+input[type="submit"]{
+	background: #149833;
+	color: #04252e;
+	font-size: 15px;
+	height: 30px;
+	margin-left: 2%;
+	margin-top: 5px;
+	width: 15%;
+}
+
+p strong {
+	color: #04252e;
+	font-size: 25px;
+	text-align: left;
+}
+
+.comentarios{
+	color: #053210;
+	font-size: 20px;
+	text-align: left;
+}
+
+button{
+	border:solid #2d959e 1px;
+	color: #04252e;
+	height: 25px;
+	width: 160px;
+}

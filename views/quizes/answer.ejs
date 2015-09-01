@@ -1,4 +1,17 @@
+<style type="text/css">
+	p{
+		color: #470914;
+		font-size: 25px;
+		text-align: left;
+	}
+
+	img{
+		height: 40px;
+		width: 80px;
+	}
+</style>
+
 <p>
-  	<%= respuesta %>
-  	<a href="/quizes/<%= quiz.id %>"> Inténtelo de nuevo </a>
+  	<%= respuesta %><br><br>
+  	<a href="/quizes/<%= quiz.id %>"> <img src="/images/regresar.png"></a>
  </p>

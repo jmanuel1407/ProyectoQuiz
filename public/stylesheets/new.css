@@ -1,0 +1,32 @@
+p {
+	color: #2d959e;
+	font-size: 25px;
+	text-align: left;
+}
+form{
+	width: 100%;
+}
+
+
+input[type="text"]{
+	border:solid #2d959e 1px;
+	height: 25px;
+	margin-top: 1%;
+	text-align: left;
+}
+
+button{
+	border:solid #2d959e 1px;
+	color: #04252e;
+	height: 28px;
+	margin-right: 60%;
+	width: 100px;
+}
+
+.botones {
+	float: left;
+	text-align: left;
+	width: 100%;
+}
+
+

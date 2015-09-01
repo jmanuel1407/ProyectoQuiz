@@ -1,8 +1,98 @@
-body { background: #999; }
+#page-wrap:after { 
+	display: none;
+}
 
-#page-wrap:after { content: "Wide Layout"; }
+header{
+	background-color: #0c2e36;
+	border-radius: 5px;
+	margin-left: 4%;
+	width: 90%;
+}
 
-nav       { float: left; width: 15%; height: 200px ;}
-nav span  { margin: 0px 100px 0px 0px;}
-section   { float: right; width: 80%; height: 200px ;}
-footer    { clear: both;  display: block; }
+header h2{
+	color:#cdf5f8;
+}
+
+header span a{
+	color: #28c0cc;
+	height: 10px;
+	margin-left: 90%;
+	text-align: right;
+	text-decoration: none;
+	width: 10%;
+	
+}
+
+nav{ 
+	float: left; 
+	height: 400px;
+	margin-left: 4%;
+	margin-top: 1%;
+	width: 15%; 
+}
+
+nav li{
+	background-color: #0c2e36;
+	border-radius: 2px;
+	height: 50px;
+	list-style: none;
+	margin-top: 10px;
+}
+
+nav li:hover{
+	background-color: #257c82;
+	border-radius: 2px;
+	border-bottom: 3px solid #e66918;
+}
+
+nav li a{
+	color: #28c0cc;
+	display: block;
+	font-size: 20px;
+	height: 100%;
+	padding-top: 15px;
+	text-decoration: none;
+	width: 100%;
+}
+
+nav li a:hover{
+	color:#05161e;
+	font-weight: bold;
+}
+
+section   { 
+	float: right;
+	height: 400px; 
+	margin-right: 4%;
+	margin-top: 1%;
+	width: 72%; 
+}
+
+section div a{
+	color: #2d959e;
+	font-size: 25px;
+	text-align: left;
+	text-decoration: none;
+}
+
+section div a:hover{
+	text-decoration: underline;
+}
+
+footer { 
+	clear: both;  
+	display: block;
+	margin-left: 4%;
+	margin-top: 5%; 
+	width: 90%;
+}
+
+footer a{
+	color: #470914;
+	font-size: 20px;
+}
+
+footer a:hover{
+	color: #ca3815;
+	font-size: 20px;
+}

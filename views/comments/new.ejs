@@ -1,6 +1,11 @@
-Añadir comentario:
+<link rel='stylesheet' href='/stylesheets/new.css' />
 
+<p>Añadir comentario:</p>
 <form method="post" action="/quizes/<%=quizid%>/comments/">
-	<input type="text" id="comment" name="comment[texto]" value="">
-	<button type="submit">Enviar</button>	
+	<p><input type="text" id="comment" name="comment[texto]"></p>
+	
+	<p class="botones"><button type="submit">Enviar</button><a href="/quizes"><button type="button">Cancelar</button></a>
+	</p>
 </form>
+
+

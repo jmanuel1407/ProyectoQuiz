@@ -47,7 +47,7 @@ app.use(function(req,res,next){
         currentTime = new Date();
         if(req.session.sessionTime){
             sessionTime = new Date( parseInt(req.session.sessionTime));
-            if(currentTime-sessionTime>10000){
+            if(currentTime-sessionTime>60000){
                 delete req.session.user;
             }else{
                 req.session.sessionTime = (new Date()).getTime();

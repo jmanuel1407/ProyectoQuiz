@@ -1,0 +1,15 @@
+h3,p {
+	color: #470914;
+	font-size: 25px;
+	text-align: left;
+}
+
+p{
+	color: #2d959e;
+	font-size: 20px;
+}
+
+picture img{
+	height: 300px;
+	margin-left: 50%;
+}
